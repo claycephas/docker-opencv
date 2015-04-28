@@ -1,26 +1,16 @@
-docker-opencv
-=============
+# docker-opencv #
 
-OpenCV on Docker, setting up the enviornment of openCV using docker.
+OpenCV and python on Docker.
 
-First install docker on your computer 
+## To use: ##
 
-http://docs.docker.io/en/latest/installation/ubuntulinux/
+Install Docker
 
-and clone the repo, and enter the following command:
+  - [Ubuntu](https://docs.docker.com/installation/ubuntulinux/)
+  - [Windows](https://docs.docker.com/installation/windows/)
+  - [Mac](https://docs.docker.com/installation/mac/)
 
-```
-sudo docker build .
-```
+Pull the image
 
-and you are ready to go!
+`sudo docker pull clay-cephas/docker-opencv`
 
-you can also pull the docker image from [index.docker.io](http://index.docker.io)
-
-https://index.docker.io/u/chilijung/docker-opencv/
-
-```
-sudo docker pull chilijung/docker-opencv
-```
-
-and your docker is set!
