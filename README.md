@@ -14,3 +14,7 @@ Pull the image
 
 `sudo docker pull clay-cephas/docker-opencv`
 
+Run the image
+
+`sudo docker run -it clay-cephas/docker-opencv`
+
